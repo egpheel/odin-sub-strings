@@ -2,9 +2,9 @@
 
 dictionary = %w[below down go going horn how howdy it i low own part partner sit]
 
-def substrings(word = '', dictionary = [])
+def substrings(text = '', dictionary = [])
   dictionary.each do |dict_word|
-    p dict_word if word.include?(dict_word)
+    p dict_word if text.include?(dict_word)
   end
 end
 
